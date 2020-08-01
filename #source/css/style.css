@@ -87,3 +87,36 @@ h6 {
 }
 
 /*------------------------------------------------------------------------*/
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+  height: 100%;
+  overflow: hidden;
+  min-height: 100%;
+  padding: 50px;
+}
+
+.block__row {
+  flex-direction: column-reverse;
+  height: 700px;
+  display: flex;
+  align-items: flex-end;
+  border: 20px solid #ece89d;
+  margin: 0px 0px 20px 0px;
+  flex-direction: column;
+}
+.block__column {
+  border: 20px solid #5e5373;
+}
+.block__column_2 {
+  flex: 1 1 auto;
+}
+.block__item {
+  background-color: #18b5a4;
+  padding: 50px;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+}
